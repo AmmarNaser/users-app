@@ -15,7 +15,10 @@ you can see this app on https://ammarnaser.github.io/users-app/
 
 ## Available Scripts
 
-### `npm install`
+```
+npm install
+
+```
 
 run this command to install all required modules
 
