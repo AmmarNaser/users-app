@@ -4,6 +4,10 @@ This app is one of Maximilian's course apps, this is an assignment project.
 
 This app allows you to add users and render their information on the screen.
 
+## App page
+
+you can see this app on https://ammarnaser.github.io/users-app/
+
 ## Available Scripts
 
 In the project directory, you can run:
