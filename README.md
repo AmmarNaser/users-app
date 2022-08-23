@@ -17,12 +17,13 @@ you can see this app on https://ammarnaser.github.io/users-app/
 
 ```
 npm install
-
 ```
 
 run this command to install all required modules
 
-### `npm start`
+```
+npm start
+```
 
 Tis command runs the app in the development mode [http://localhost:3000](http://localhost:3000)
 
