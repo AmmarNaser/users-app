@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import NewUser from "./Component/NewUsers/NewUser";
 import UserList from "./Component/Users/UsersList";
 import "./App.css";
@@ -12,7 +12,9 @@ const DUMMY_DATA = [
   { id: "U2", name: "Ahmed", age: 35 },
 ];
 function App() {
-  const [users, setUsers] = useState(DUMMY_DATA);
+  const [users, setUsers] = useState([]);
+
+ 
 
   const saveUsersHandler = (enteredData) => {
     setUsers((prevUsers) => {

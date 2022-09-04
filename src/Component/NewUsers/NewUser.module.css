@@ -1,15 +1,22 @@
 form {
-  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+  margin: 0;
 }
 
 input {
   border: 0cm;
   width: 100%;
-  height: 1.5rem;
+  height: 3rem;
   border-radius: 0.3rem;
   background-color: rgb(188, 188, 188);
   padding: 2px 5px;
-  font-weight: 600;
+  font-weight: 400;
+  font-size: larger;
+  margin-top: 10px;
 }
 input:focus {
   outline: none;
